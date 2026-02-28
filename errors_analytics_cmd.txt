@@ -1,0 +1,8 @@
+src/components/admin/Analytics.tsx(157,9): error TS2322: Type 'unknown[]' is not assignable to type '{ name: string; category: string; totalSold: number; revenue: number; }[]'.
+  Type '{}' is missing the following properties from type '{ name: string; category: string; totalSold: number; revenue: number; }': name, category, totalSold, revenue
+src/components/admin/Analytics.tsx(158,9): error TS2322: Type '{ status: string; count: unknown; }[]' is not assignable to type '{ status: string; count: number; }[]'.
+  Type '{ status: string; count: unknown; }' is not assignable to type '{ status: string; count: number; }'.
+    Types of property 'count' are incompatible.
+      Type 'unknown' is not assignable to type 'number'.
+src/lib/supabase.ts(4,21): error TS1343: The 'import.meta' meta-property is only allowed when the '--module' option is 'es2020', 'es2022', 'esnext', 'system', 'node16', 'node18', 'node20', or 'nodenext'.
+src/lib/supabase.ts(5,25): error TS1343: The 'import.meta' meta-property is only allowed when the '--module' option is 'es2020', 'es2022', 'esnext', 'system', 'node16', 'node18', 'node20', or 'nodenext'.

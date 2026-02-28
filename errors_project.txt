@@ -1,0 +1,54 @@
+src/components/admin/Analytics.tsx(266,48): error TS6133: 'index' is declared but its value is never read.
+src/components/admin/OrdersManager.tsx(2,47): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/components/admin/OrdersManager.tsx(2,61): error TS6133: 'Target' is declared but its value is never read.
+src/components/admin/OrdersManager.tsx(2,69): error TS6133: 'Zap' is declared but its value is never read.
+src/components/admin/OrdersManager.tsx(2,74): error TS6133: 'Shield' is declared but its value is never read.
+src/components/admin/ProductForm.tsx(2,30): error TS6133: 'ImageIcon' is declared but its value is never read.
+src/components/admin/ProductForm.tsx(2,41): error TS6133: 'Zap' is declared but its value is never read.
+src/components/admin/ProductForm.tsx(2,46): error TS6133: 'ShieldCheck' is declared but its value is never read.
+src/components/admin/ProductForm.tsx(2,59): error TS6133: 'Target' is declared but its value is never read.
+src/components/admin/ProductsManager.tsx(2,38): error TS6133: 'Zap' is declared but its value is never read.
+src/components/admin/ProductsManager.tsx(2,64): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/components/admin/Settings.tsx(2,35): error TS6133: 'Mail' is declared but its value is never read.
+src/components/admin/Settings.tsx(2,52): error TS6133: 'Upload' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,13): error TS6133: 'User' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,19): error TS6133: 'Mail' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,25): error TS6133: 'Phone' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,32): error TS6133: 'MapPin' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,40): error TS6133: 'CreditCard' is declared but its value is never read.
+src/components/CheckoutForm.tsx(2,60): error TS6133: 'Truck' is declared but its value is never read.
+src/components/Footer.tsx(1,1): error TS6133: 'Zap' is declared but its value is never read.
+src/components/MapPicker.tsx(3,10): error TS6133: 'MapPin' is declared but its value is never read.
+src/components/MapPicker.tsx(3,34): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/components/MapPicker.tsx(13,34): error TS2503: Cannot find namespace 'google'.
+src/components/MapPicker.tsx(14,40): error TS2503: Cannot find namespace 'google'.
+src/components/MapPicker.tsx(25,24): error TS2304: Cannot find name 'google'.
+src/components/MapPicker.tsx(77,27): error TS2304: Cannot find name 'google'.
+src/components/MapPicker.tsx(83,15): error TS2304: Cannot find name 'google'.
+src/components/MapPicker.tsx(93,26): error TS2304: Cannot find name 'google'.
+src/components/MapPicker.tsx(99,51): error TS7006: Parameter 'results' implicitly has an 'any' type.
+src/components/MapPicker.tsx(99,60): error TS7006: Parameter 'status' implicitly has an 'any' type.
+src/components/MapPicker.tsx(113,41): error TS2503: Cannot find namespace 'google'.
+src/components/MapPicker.tsx(117,51): error TS7006: Parameter 'results' implicitly has an 'any' type.
+src/components/MapPicker.tsx(117,60): error TS7006: Parameter 'status' implicitly has an 'any' type.
+src/components/MapPicker.tsx(137,26): error TS2304: Cannot find name 'google'.
+src/components/MapPicker.tsx(140,9): error TS7006: Parameter 'results' implicitly has an 'any' type.
+src/components/MapPicker.tsx(140,18): error TS7006: Parameter 'status' implicitly has an 'any' type.
+src/components/Returns.tsx(1,21): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/components/Returns.tsx(1,62): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/components/ShippingInfo.tsx(1,32): error TS6133: 'DollarSign' is declared but its value is never read.
+src/components/ShippingInfo.tsx(1,52): error TS6133: 'Zap' is declared but its value is never read.
+src/components/TrackOrder.tsx(2,27): error TS6133: 'MapPin' is declared but its value is never read.
+src/components/TrackOrder.tsx(2,63): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/contexts/AuthContext.tsx(26,14): error TS6133: 'event' is declared but its value is never read.
+src/lib/mpesa.ts(53,11): error TS6133: 'formattedPhone' is declared but its value is never read.
+src/lib/mpesa.ts(94,13): error TS6133: 'formattedPhone' is declared but its value is never read.
+src/lib/mpesa.ts(105,13): error TS6133: 'paymentInstructions' is declared but its value is never read.
+src/pages/Home.tsx(4,55): error TS6133: 'Zap' is declared but its value is never read.
+src/pages/Leaderboard.tsx(1,18): error TS6133: 'Medal' is declared but its value is never read.
+src/pages/Leaderboard.tsx(1,31): error TS6133: 'Target' is declared but its value is never read.
+src/pages/Leaderboard.tsx(1,39): error TS6133: 'Shield' is declared but its value is never read.
+src/pages/Leaderboard.tsx(1,47): error TS6133: 'Zap' is declared but its value is never read.
+src/pages/Loyalty.tsx(2,40): error TS6133: 'Zap' is declared but its value is never read.
+src/pages/Loyalty.tsx(2,45): error TS6133: 'Target' is declared but its value is never read.
+src/pages/Loyalty.tsx(2,53): error TS6133: 'Lock' is declared but its value is never read.

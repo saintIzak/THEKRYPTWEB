@@ -1,0 +1,26 @@
+FilterSidebar.tsx:126 [@typescript-eslint/no-unused-vars] 'onChange' is defined but never used.
+QuickFilterPills.tsx:8 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+TrackOrder.tsx:2 [@typescript-eslint/no-unused-vars] 'MapPin' is defined but never used.
+TrackOrder.tsx:2 [@typescript-eslint/no-unused-vars] 'ChevronRight' is defined but never used.
+TrackOrder.tsx:13 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+TrackOrder.tsx:80 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+Settings.tsx:2 [@typescript-eslint/no-unused-vars] 'Mail' is defined but never used.
+Settings.tsx:2 [@typescript-eslint/no-unused-vars] 'Upload' is defined but never used.
+Settings.tsx:107 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+AuthContext.tsx:46 [react-refresh/only-export-components] Fast refresh only works when a file only exports components. Use a new file to s
+CartContext.tsx:77 [react-refresh/only-export-components] Fast refresh only works when a file only exports components. Use a new file to s
+WishlistContext.tsx:73 [react-refresh/only-export-components] Fast refresh only works when a file only exports components. Use a new file to s
+Arcade.tsx:4 [@typescript-eslint/no-unused-vars] 'Calendar' is defined but never used.
+Arcade.tsx:4 [@typescript-eslint/no-unused-vars] 'Clock' is defined but never used.
+Arcade.tsx:4 [@typescript-eslint/no-unused-vars] 'Zap' is defined but never used.
+Arcade.tsx:4 [@typescript-eslint/no-unused-vars] 'Users' is defined but never used.
+Arcade.tsx:5 [@typescript-eslint/no-unused-vars] 'Gift' is defined but never used.
+Arcade.tsx:83 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+Arcade.tsx:96 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+Home.tsx:4 [@typescript-eslint/no-unused-vars] 'Trophy' is defined but never used.
+Home.tsx:8 [@typescript-eslint/no-unused-vars] 'redGridBg' is defined but never used.
+Loyalty.tsx:2 [@typescript-eslint/no-unused-vars] 'Zap' is defined but never used.
+Loyalty.tsx:2 [@typescript-eslint/no-unused-vars] 'Target' is defined but never used.
+Loyalty.tsx:2 [@typescript-eslint/no-unused-vars] 'Lock' is defined but never used.
+Shop.tsx:130 [@typescript-eslint/no-explicit-any] Unexpected any. Specify a different type.
+Wishlist.tsx:13 [@typescript-eslint/no-unused-vars] 'removeFromWishlist' is assigned a value but never used.

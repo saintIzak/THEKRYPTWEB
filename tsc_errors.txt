@@ -1,0 +1,3 @@
+﻿src/components/MpesaModalTest.tsx(5,31): error TS2307: Cannot find module './components/MpesaPaymentModal' or its corresponding type declarations.
+src/components/MpesaModalTest.tsx(6,24): error TS2307: Cannot find module './components/ui/button' or its corresponding type declarations.
+src/components/MpesaModalTest.tsx(59,37): error TS7006: Parameter 'transactionId' implicitly has an 'any' type.
