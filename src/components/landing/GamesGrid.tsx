@@ -130,7 +130,7 @@ export default function GamesGrid() {
                 >
                     <Link
                         to="/arcade"
-                        className="group inline-flex items-center gap-3 border border-zinc-700 hover:border-zinc-500 text-zinc-400 hover:text-white px-8 py-4 text-sm font-black uppercase tracking-widest transition-all"
+                        className="relative group inline-flex items-center gap-3 bg-red-600 hover:bg-red-500 text-white px-8 py-4 text-sm font-black uppercase tracking-widest transition-all shadow-[0_0_20px_rgba(220,38,38,0.5)] hover:shadow-[0_0_30px_rgba(220,38,38,0.8)]"
                     >
                         Book any game
                         <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

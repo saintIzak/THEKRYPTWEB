@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import {
     Twitter, Instagram, Facebook, Youtube,
     Send, Shield, Zap, Globe, Cpu,
-    ChevronRight, Mail, MapPin, Phone
+    ChevronRight, Mail, MapPin, Phone, Clock
 } from 'lucide-react';
 import logo from '../assets/images/logo01.jpg';
 import redGridBg from '../assets/images/red-grid-bg.png';
@@ -68,7 +68,8 @@ export default function Footer() {
                                 { name: 'Tournament Calendar', path: '/leaderboard' },
                                 { name: 'Arcade Pricing', path: '/arcade' },
                                 { name: 'Bulk/Wholesale Inquiries', path: '/hq' },
-                                { name: 'Command Rank', path: '/leaderboard' }
+                                { name: 'Command Rank', path: '/leaderboard' },
+                                { name: 'Daily & Weekly Passes', path: '/arcade' }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <Link to={link.path} className="flex items-center gap-2 hover:text-red-600 transition-colors group">
@@ -89,7 +90,11 @@ export default function Footer() {
                         <ul className="space-y-4 text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-zinc-500">
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-4 h-4 text-red-600 shrink-0" />
-                                <span>Maiyan Mall, 2nd Floor<br />Nairobi, Kenya</span>
+                                <span>Maiyan Mall, Ground Floor, Shop B7<br />Westlands, Nairobi 00100</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <Clock className="w-4 h-4 text-red-600 shrink-0" />
+                                <span>Mon–Fri: 9:00AM – 9:30PM<br />Sat–Sun: 8:00AM – 10:00PM</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="w-4 h-4 text-red-600 shrink-0" />

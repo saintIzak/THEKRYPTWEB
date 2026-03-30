@@ -104,7 +104,7 @@ export default function Availability() {
 
                         <Link
                             to="/arcade"
-                            className="group flex items-center justify-center gap-2 mt-2 p-4 border border-dashed border-zinc-800 hover:border-red-500/50 text-zinc-600 hover:text-white text-sm font-black uppercase tracking-widest transition-all"
+                            className="relative group flex items-center justify-center gap-2 mt-2 p-4 bg-red-600 hover:bg-red-500 text-white text-sm font-black uppercase tracking-widest transition-all shadow-[0_0_20px_rgba(220,38,38,0.5)] hover:shadow-[0_0_30px_rgba(220,38,38,0.8)]"
                         >
                             Book a station now
                             <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

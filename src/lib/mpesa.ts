@@ -88,34 +88,49 @@ You will receive an SMS confirmation once payment is successful.
     };
   }
 
-  // Simulate payment initiation (for Till Number, this is manual)
-  async initiatePayment(request: MpesaPaymentRequest): Promise<MpesaPaymentResponse> {
+  // Simulate STK Push (Lipa Na M-Pesa Online)
+  async initiateStkPush(request: MpesaPaymentRequest): Promise<MpesaPaymentResponse> {
+    const formattedPhone = this.formatPhoneNumber(request.phoneNumber);
+
+    if (!this.isValidPhoneNumber(request.phoneNumber)) {
+      return {
+        success: false,
+        message: 'Invalid phone number format. Use 07... or 2547...',
+      };
+    }
+
     try {
+      // In a real production app, this would be an API call to your backend
+      // and your backend would authenticate with Safaricom Daraja API
+      // to trigger the STK push to the selected number.
 
-
-      if (!this.isValidPhoneNumber(request.phoneNumber)) {
-        return {
-          success: false,
-          message: 'Invalid phone number format'
-        };
-      }
-
-      // For Till Number payments, we can't automatically initiate
-      // We provide instructions instead
-      this.generatePaymentInstructions(request);
+      // Simulating API network request delay
+      await new Promise(resolve => setTimeout(resolve, 1500));
 
       return {
         success: true,
-        message: 'Payment instructions generated. Please follow the M-Pesa steps to complete payment.',
-        checkoutRequestId: `TILL_${Date.now()}_${request.orderId}`
+        message: 'STK Push sent successfully. Please check your phone to enter your PIN.',
+        checkoutRequestId: `ws_CO_${Date.now()}_${request.orderId}`
       };
     } catch (error) {
-      console.error('M-Pesa payment error:', error);
+      console.error('STK Push error:', error);
       return {
         success: false,
-        message: 'Failed to process payment request'
+        message: 'Failed to initiate STK Push. Please try again.'
       };
     }
+  }
+
+  // Simulate Check STK Push Status Callback
+  async checkStkStatus(checkoutRequestId: string): Promise<{ success: boolean; status: 'PENDING' | 'COMPLETED' | 'FAILED' }> {
+    // Simulating callback wait time
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // In a real app, this polls your database for the Safaricom callback
+    return {
+      success: true,
+      status: 'COMPLETED'
+    };
   }
 
   // Check if Till Number is configured

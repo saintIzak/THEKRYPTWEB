@@ -15,8 +15,9 @@ import PageTransition from './components/PageTransition';
 import ScrollToTop from './components/ScrollToTop';
 import './styles/globals.css';
 
+import Home from './pages/Home';
+
 // Lazy loaded Pages
-const Home = lazy(() => import('./pages/Home'));
 const Shop = lazy(() => import('./pages/Shop'));
 const Arcade = lazy(() => import('./pages/Arcade'));
 const Leaderboard = lazy(() => import('./pages/Leaderboard'));
